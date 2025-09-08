@@ -76,14 +76,22 @@ span {
 }
 
 .hero-section {
-  background: url('images/hero.jpg') no-repeat center center/cover;
+  background: url('images/hero.jpg');
   min-width: 100%;
-  min-height: calc(-6rem + 100vh);
-  ;
+  min-height: calc(-6rem + 100vh);;
+  background-size: contain;
   color: #FFFFFF;
   padding: 100px 0;
   position: relative;
 }
+.row-info
+{
+position: relative;
+     
+    padding: 4.8rem 0px 9.6rem;
+    min-height: calc(-6rem + 100vh);
+}
+
 
 
 .hero-section::before 
@@ -487,10 +495,10 @@ footer a:hover {
     font-size: 0.9rem;
   }
 
-  .container {
+  /* .container {
     margin-left: 20px;
     margin-right: 20px;
-  }
+  } */
 
   .process-card-design {
     max-width: 100%;
